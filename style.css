@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(166, 146, 146);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    background-color: rgb(129, 117, 117);
+}
+
+.hero-content {
+    width: 300px;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(11, 1, 1);
+}
+
+/* Rasmni o‘rtaga joylashtirish */
+.hero-content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.red {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+
+}
+.click {
+   width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: yellow;
+    transition: ease 0.33s;
+}
+
+.click:active {
+    background-color: rgba(255, 255, 0, 0.429);
+    scale: 0.95;
+}
+
